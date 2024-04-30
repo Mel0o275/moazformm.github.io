@@ -1,0 +1,306 @@
+/*global rules*/
+*{
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/*biology booking*/
+
+#bookingbody{
+    font-family: "Cairo", sans-serif;
+    background-image: url(../img/biology\ background.png);
+    background-size: 1500px;
+}
+
+#booking2{
+    font-family: "Cairo", sans-serif;
+    background-image: url(../img/arabic\ background.png);
+    background-size: 1500px;
+}
+
+#contentbooking{
+    font-family: "Work Sans", sans-serif;
+    margin-top: -8px;
+    position: fixed;
+    padding: 20px;
+    background-color: rgb(30, 185, 205);
+    width: 98%;
+    margin-left: -8px;
+}
+
+#contentbooking2{
+    font-family: "Work Sans", sans-serif;
+    margin-top: -8px;
+    position: fixed;
+    padding: 20px;
+    background-color: #ffff;
+    width: 98%;
+    margin-left: -8px;
+}
+
+
+#navbarbooking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/*هيخلي الكلام كلو على نفس السطر*/
+}
+
+#navbarbooking #nav-leftbooking{
+    margin-left: 20px;
+}
+
+#navbarbooking #nav-leftbooking a{
+    text-decoration: wavy;
+    color: rgb(248, 168, 63);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#navbarbooking #nav-leftbooking2 a{
+    text-decoration: wavy;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#navbarbooking #nav-centerbooking a{
+    margin-left: 20px;
+    text-decoration: wavy;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.4s; /*الكلام هينور بعد 0,4 ثانية لما تجيب الماوس عليه*/
+}
+
+#navbarbooking #nav-centerbooking2 a{
+    margin-left: 20px;
+    text-decoration: wavy;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.4s; 
+}
+
+#navbarbooking #nav-centerbooking a:hover{
+    color: rgb(248, 168, 63);
+}
+
+#navbarbooking #nav-centerbooking2 a:hover{
+    color: #2ecc71;
+}
+
+#navbarbooking #nav-rightbooking a{
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#nav-rightbooking select{
+    background-color: #ffff;
+    color: rgb(248, 168, 63);
+    margin-right: 12px;
+    font-size: 18px;
+    transition: 0.4s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    border: solid  #ffff;
+}
+
+#nav-rightbooking2 select{
+    background-color: black;
+    color: #ffff;
+    margin-right: 12px;
+    font-size: 18px;
+    transition: 0.4s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    border: solid  #ffff;
+}
+
+#nav-rightbooking select:hover{
+    color: #ffff;
+    background-color: rgb(248, 168, 63);
+    transition: 1s;
+}
+
+#nav-rightbooking2 select:hover{
+    color: #ffff;
+    transition: 1s;
+}
+
+
+#navbarbooking #nav-rightbooking button{
+    margin-right: 12px;
+    border: none;
+    border-radius: 35px;
+    border: solid  #ffff;
+    background-color: #ffff;
+    color: rgb(248, 168, 63);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#navbarbooking #nav-rightbooking2 button{
+    margin-right: 12px;
+    border: none;
+    border-radius: 35px;
+    border: solid  #ffff;
+    background-color: black;
+    color: #ffff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#navbarbooking #nav-rightbooking button:hover{
+    color: #ffff;
+    background-color: rgb(248, 168, 63);
+    transform: scale(1.15);
+}
+
+#navbarbooking #nav-rightbooking2 button:hover{
+    color: #ffff;
+    background-color: #2ecc71;
+    transform: scale(1.15);
+}
+
+#booking{
+    direction: rtl;
+    padding-top: 90px;
+}
+
+#booking #box{
+    width: 500px;
+    height: 620px;
+    margin-right: 900px;
+}
+
+#booking #box h1{
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 150px;
+    font-size: 30px;
+}
+
+#booking #box form{
+    width: 300px;
+}
+
+#booking #box form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#booking #box form input{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+#booking #box form p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#booking #box form select{
+    width: 305px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: -30px;
+    background-color: #ffff;
+    color: rgb(30, 185, 205);
+}
+
+#booking #box form select:hover{
+    cursor: pointer;
+    transition: .6s;
+}
+
+
+#booking #box form button{
+    width: 320px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: rgb(30, 185, 205);
+    color: #ffff;
+    font-size: 20px;
+}
+
+#booking #box form  button:hover{
+    background-color: #ffff;
+    color: rgb(30, 185, 205);
+    cursor: pointer;
+    transition: .6s;
+}
+
+#footerbooking{
+    font-family: "Work Sans", sans-serif;
+    margin-top: 120px;
+    margin-bottom: -20px;
+    margin-left: -8px;
+    width: 100.57%;
+    height: 290px;
+    background-color: rgb(30, 185, 205);
+    text-align: center;
+}
+
+#footerbooking h1{
+    font-size: 60px;
+    color: #ffff;
+    padding-top: 40px;
+}
+
+#footerbooking h3{
+    font-size: 20px;
+    color: #ffff;
+}
+
+#footerbooking .socialiconsbooking{
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+#footerbooking .socialiconsbooking button{
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 140px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 50%;
+}
+
+#footerbooking  .socialiconsbooking button:hover{
+    transform: scale(1.2);
+}
+
+
+#footerbooking .socialiconsbooking .fa-facebook{
+    padding: 10px 10px;
+}
+
+#footerbooking .socialiconsbooking .fa-youtube{
+    padding: 10px 10px;
+}
+
+#footerbooking .socialiconsbooking .fa-google{
+    padding: 10px 10px;
+}
+
+
+#footerbooking #parabooking{
+    color: #ffff;
+}
